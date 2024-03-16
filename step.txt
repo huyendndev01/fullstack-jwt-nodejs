@@ -1,0 +1,18 @@
+1. structre of project
+    src/ 
+        1. config
+            + file: view engine
+        2. controller
+        3. public
+        4. routes
+        5. service
+        6.view
+    .gitignore
+    .env
+    .babelrc (
+        {
+            "presets": [
+                "@babel-preset-env"
+            ]
+        }
+    )
