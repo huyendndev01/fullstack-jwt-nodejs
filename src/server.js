@@ -7,7 +7,8 @@ const app = express();
 configViewEngine(app)
 initWebRoutes(app)
 
+
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
-    console.log("Server is running...." + PORT);
+    console.log("http://localhost:8080/");
 })
